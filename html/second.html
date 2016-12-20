@@ -1,0 +1,344 @@
+    <!DOCTYPE html>
+    <html>
+    <head>
+    	<title>
+    		HTC
+    	</title>
+    	<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+    	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.slim.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+     <link rel="stylesheet" type="text/css" href="../css/style.css">
+     <link rel="stylesheet" type="text/css" href="../css/font-awesome-4.7.0/css/font-awesome.min.css">
+     <link href="https://fonts.googleapis.com/css?family=Droid+Sans|Open+Sans+Condensed:300" rel="stylesheet">
+   </head>
+   <body class="container-fluid">
+    <!-- navigation bar section starts-->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div >
+        <!-- Brand and toggle are grouped here for better display in mobiles -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">hTC</a>
+        </div>
+
+        
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+            <li><a href="#">eStore </a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Smartphones</a></li>
+                <li><a href="#">Tablets</a></li>
+                <li><a href="#">Camera</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Accessories</a></li>
+
+              </ul>
+            </li>
+          </ul>
+          <form class="navbar-form navbar-left">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+          </form>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-briefcase"> Account <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#myModal" type="button" data-toggle="modal"><span class="glyphicon glyphicon-user"></span> Sign In</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-wrench"></span> Settings</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-exclamation-sign"></span> Information</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#myModal1" type="button" data-toggle="modal"><span class="glyphicon glyphicon-thumbs-up"></span> Sign Up</a></li>
+
+              </ul>
+            </li>
+
+            <li><a href="html/second.html" id="butapp">Apps</a></li>
+          </div>
+        </div>
+      </nav>
+
+      <!--modal section starts-->
+      <div class="modal fade" id="myModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">SIGN IN</h4>
+            </div>
+            <div class="modal-body">
+              <form class="form-horizontal">
+                <div class="form-group">
+                  <label class="col-lg-4 control-label" for="username">USER NAME</label>
+                  <div class="col-lg-8">
+                    <input class="form-control" id="username" type="text">
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label class="col-lg-4 control-label" for="password">PASSWORD</label>
+                  <div class="col-lg-8">
+                    <input class="form-control" id="password" type="text">
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button class="btn btn-primary" type="button">SIGN IN</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="modal fade" id="myModal1">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">SIGN IN</h4>
+            </div>
+            <div class="modal-body">
+              <form class="form-horizontal">
+                <div class="form-group">
+                  <label class="col-lg-4 control-label" for="firstname">FIRST NAME</label>
+                  <div class="col-lg-8">
+                    <input class="form-control" id="username" type="text">
+                  </div>
+                  <label class="col-lg-4 control-label" for="lastname">LAST NAME</label>
+                  <div class="col-lg-8">
+                    <input class="form-control" id="username" type="text">
+                  </div>
+                  <label class="col-lg-4 control-label" for="email">EMAIL</label>
+                  <div class="col-lg-8">
+                    <input class="form-control" id="username" type="text">
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label class="col-lg-4 control-label" for="password">PASSWORD</label>
+                  <div class="col-lg-8">
+                    <input class="form-control" id="password" type="text">
+                  </div>
+                  <label class="col-lg-4 control-label" for="rpassword">CONFIRM PASSWORD</label>
+                  <div class="col-lg-8">
+                    <input class="form-control" id="password" type="text">
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button class="btn btn-primary" type="button">JOIN</button>
+            </div>
+          </div>
+          <!--modal sectiion ends-->
+        </div>
+      </div>
+      <!--navigation bar section ends-->
+
+      <div class="container" id="cont2">
+        <h1>Softwares & Apps</h1>
+        <!--tab section for apps starts-->
+        <ul class="nav nav-tabs">
+          <li class="active"><a data-toggle="tab" href="#menu1">ENTERTAINMENT</a></li>
+          <li><a data-toggle="tab" href="#menu2">PRODUCTIVITY</a></li>
+        </ul>
+
+        <div class="tab-content">
+          <div id="menu1" class="tab-pane active">
+            
+            <!--row starts-->
+            <div class="row" id="row5">
+              <div class="col-lg-4 col-md-4 col-sm-4">
+                <div class="thumbnail" id="appthumb">
+                  <img src="../images/app1.png" alt="htc" class="img-resposive">
+                  <div class="caption">
+                    <center><h3>Dot Breaker</h3></center>
+                  </div>
+                </div>
+              </div>
+              
+
+              <div class="col-lg-4 col-md-4 col-sm-4">
+                <div class="thumbnail" id="appthumb">
+                  <img src="../images/app2.png" alt="htc" class="img-resposive">
+                  <div class="caption">
+                    <center><h3>Dot Design</h3></center>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="col-lg-4 col-md-4 col-sm-4">
+                <div class="thumbnail" id="appthumb">
+                  <img src="../images/app3.png" alt="htc" class="img-resposive">
+                  <div class="caption">
+                    <center><h3>Mix Radio</h3></center>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div class="row" id="row5">
+              <div class="col-lg-4 col-md-4 col-sm-4">
+                <div class="thumbnail" id="appthumb">
+                  <img src="../images/app4.png" alt="htc" class="img-resposive">
+                  <div class="caption">
+                    <center><h3>Sense Home</h3></center>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-4 col-sm-4">
+                <div class="thumbnail" id="appthumb">
+                  <img src="../images/app5.png" alt="htc" class="img-resposive">
+                  <div class="caption">
+                    <center><h3>Zoodles</h3></center>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-4 col-sm-4">
+                <div class="thumbnail" id="appthumb">
+                  <img src="../images/app11.png" alt="htc" class="img-resposive">
+                  <div class="caption">
+                    <center><h3>Google Music</h3></center>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <!--row ends-->
+          <div id="menu2" class="tab-pane fade">
+            <!--row starts-->
+            <div class="row" id="row5">
+              <div class="col-lg-4 col-md-4 col-sm-4">
+                <div class="thumbnail" id="appthumb">
+                  <img src="../images/app6.png" alt="htc">
+                  <div class="caption">
+                    <center><h3>Dot View</h3></center>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="col-lg-4 col-md-4 col-sm-4">
+                <div class="thumbnail" id="appthumb">
+                  <img src="../images/app7.png" alt="htc">
+                  <div class="caption">
+                    <center><h3>HTC Fetch</h3></center>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="col-lg-4 col-md-4 col-sm-4">
+                <div class="thumbnail" id="appthumb">
+                  <img src="../images/app8.png" alt="htc">
+                  <div class="caption">
+                    <center><h3>HTC Guide </h3></center>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="row" id="row5">
+              <div class="col-lg-4 col-md-4 col-sm-4">
+                <div class="thumbnail" id="appthumb">
+                  <img src="../images/app9.png" alt="htc">
+                  <div class="caption">
+                    <center><h3>HTC Connect</h3></center>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-4 col-sm-4">
+                <div class="thumbnail" id="appthumb">
+                  <img src="../images/app10.png" alt="htc">
+                  <div class="caption">
+                    <center><h3>HTC Sense</h3></center>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-4 col-sm-4">
+                <div class="thumbnail" id="appthumb">
+                  <img src="../images/app12.png" alt="htc">
+                  <div class="caption">
+                    <center><h3>Google Maps</h3></center>
+                  </div>
+                </div>
+              </div>
+              <!--row ends-->
+            </div>
+          </div>
+          <!--tab section for apps ends-->
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+<!--footer section starts-->
+<footer class="row" >
+
+  <div class="col-lg-3 col-md-3 col-sm-3">  
+    <ul class="f1">
+      <li class="footHeading1"><a href="#">Products</a></li>
+      <li><a href="#">Smartphones</a></li>
+      <li><a href="#">RE Camera</a></li>
+      <li><a href="#">Nexus Tablet</a></li>
+      <li><a href="#">Accessories</a></li>
+    </ul>
+  </div>
+  
+  
+  <div class="col-lg-3 col-md-3 col-sm-3">
+    <ul class="f1">
+      <li class="footHeading2"><a href="#">About HTC</a></li>
+      <li><a href="#">Newsroom</a></li>
+      <li><a href="#">Investor</a></li>
+      <li><a href="#">policy</a></li>
+      <li><a href="#">Leadership</a></li>
+    </ul>
+  </div>
+  
+  
+  <div class="col-lg-3 col-md-3 col-sm-3">
+    <ul class="f1">
+      <li class="footHeading3"><a href="#">Follow Us</a></li>
+      <li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i> facebook</a></li>
+      <li><a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i> whatsapp</a></li>
+      <li><a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i> twitter</a></li>
+      <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i> instagram</a></li>
+    </ul>
+  </div>
+
+  <div class="col-lg-3 col-md-3 col-sm-3">
+    <ul class="f1">
+      <li class="footHeading4"><a href="#">Support</a></li>
+      <li><a href="#">Support center</a></li>
+      <li><a href="#">Warranty</a></li>
+      <li><a href="#">Htc Advantage</a></li>
+    </ul>
+  </div>
+</div>
+
+</footer>
+<!--footer sectiion ends-->
+</body>
+</html>
